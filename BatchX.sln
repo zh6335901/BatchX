@@ -21,9 +21,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dashboard", "Dashboard", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{FBCD7127-490E-4C5B-BAF9-DFD5EE0023C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchX.Dispatching.Api", "src\Services\Dispatching\BatchX.Dispatching.Api\BatchX.Dispatching.Api.csproj", "{1010004F-61E5-4BC5-8D8C-B923F0F1A6CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BatchX.Dispatching.Api", "src\Services\Dispatching\BatchX.Dispatching.Api\BatchX.Dispatching.Api.csproj", "{1010004F-61E5-4BC5-8D8C-B923F0F1A6CA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BatchX.JobConfig.Api", "src\Services\JobConfig\BatchX.JobConfigs.Api\BatchX.JobConfig.Api.csproj", "{88B60D13-8AA0-415D-B8BB-79360FBD3E70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CronJob", "CronJob", "{B522D4D3-373A-4E61-BD2C-5B29458F6646}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,6 +56,7 @@ Global
 		{FBCD7127-490E-4C5B-BAF9-DFD5EE0023C0} = {F39CA058-D685-4F4F-B8E1-A5C26D89D4DB}
 		{1010004F-61E5-4BC5-8D8C-B923F0F1A6CA} = {17257924-07C6-4BC7-A69B-113B18F8C784}
 		{88B60D13-8AA0-415D-B8BB-79360FBD3E70} = {C5590C48-0AAC-432F-8C69-519CDC349F9D}
+		{B522D4D3-373A-4E61-BD2C-5B29458F6646} = {F39CA058-D685-4F4F-B8E1-A5C26D89D4DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {02532B47-FED7-4564-8714-F0926D14AC6E}
