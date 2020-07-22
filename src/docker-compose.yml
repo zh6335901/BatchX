@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  batchx.jobconfig.api:
+    image: ${DOCKER_REGISTRY-}batchxjobconfigapi
+    build:
+      context: .
+      dockerfile: Services/JobConfig/BatchX.JobConfigs.Api/Dockerfile
+
+  batchx.dispatching.api:
+    image: ${DOCKER_REGISTRY-}batchxdispatchingapi
+    build:
+      context: .
+      dockerfile: Services/Dispatching/BatchX.Dispatching.Api/Dockerfile
+
